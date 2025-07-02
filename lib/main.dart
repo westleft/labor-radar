@@ -1,9 +1,9 @@
   import 'package:flutter/material.dart';
-  import 'package:flutter/cupertino.dart';
   import 'package:flutter_screenutil/flutter_screenutil.dart';
   import 'package:google_fonts/google_fonts.dart';
   import 'screen/home_screen.dart';
   import 'screen/welcome_screen.dart';
+  import 'screen/root_screen.dart';
   void main() {
     runApp(const MyApp());
   }
@@ -25,7 +25,7 @@
           initialRoute: '/',
           routes: {
             '/welcome': (context) => const WelcomeScreen(),
-            '/': (context) => const HomeScreen(),
+            '/': (context) => const RootScreen(),
           },
         ),
       );

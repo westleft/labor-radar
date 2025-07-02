@@ -51,18 +51,6 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      bottomNavigationBar: BottomNavigationBar(
-        items: [
-          BottomNavigationBarItem(
-            icon: Icon(Icons.search),
-            label: '搜尋',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.info),
-            label: '關於我們',
-          ),
-        ],
-      ),
       body: SafeArea(
         child: Column(
           children: [
